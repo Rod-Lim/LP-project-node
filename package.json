@@ -23,6 +23,7 @@
     "@hapipal/schwifty": "6.x.x",
     "exiting": "6.0.1",
     "joi": "17.x.x",
+    "nodemailer": "^6.9.1",
     "objection": "2.x.x",
     "sqlite3": "5.0.2"
   },
