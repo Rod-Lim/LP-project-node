@@ -2,7 +2,7 @@
 
 Après avoir cloné le repository, suivez les étapes suivantes :
 
-1. Réalisez la commande ```npm install``` depuis un terminal dans le répertoire du projet.
+1. Réalisez la commande ```npm install``` depuis un terminal en vous placant à la racine du projet.
 
 2. Lancez le conteneur docker avec la commande suivante : ```docker run -p 3306:3306 --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user -d mysql:5```. Ce conteneur sera la base de données du projet avec comme nom d'utilisateur root et mot de passe hapi.
 
