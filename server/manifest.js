@@ -1,5 +1,7 @@
 'use strict';
 
+require('dotenv').config();
+
 const Dotenv = require('dotenv');
 const Confidence = require('@hapipal/confidence');
 const Toys = require('@hapipal/toys');
